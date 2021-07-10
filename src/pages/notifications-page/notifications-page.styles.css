@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00000033;
+  border-radius: 10px;
+  border-right: 2px solid white;
+  background-clip: padding-box;
+}
+
+.notifications__page {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.notifications__body {
+  width: 100%;
+  height: 905px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1000px;
+  transform: translate(220px);
+  z-index: 0;
+}/*# sourceMappingURL=notifications-page.styles.css.map */

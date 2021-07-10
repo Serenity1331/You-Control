@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import NotificationsPage from './pages/notifications-page/NotificationsPage';
+import NotificationsRecordPage from './pages/notifications-record-page/NotificationsRecordPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NotificationsPage />
+      {/* <NotificationsRecordPage /> */}
     </div>
   );
 }

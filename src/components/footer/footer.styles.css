@@ -1,0 +1,137 @@
+.notifications__page footer {
+  height: 192px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 1px 0px 0px #E5E5E5 inset;
+}
+.notifications__page footer .footer__contacts, .notifications__page footer .footer__links, .notifications__page footer .footer__projects, .notifications__page footer .footer__social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+.notifications__page footer .footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
+  margin-left: 264px;
+}
+
+.notifications__page footer .footer__contacts {
+  margin-right: 81px;
+}
+.notifications__page footer .footer__contacts span {
+  font-weight: 500;
+  margin: 2px;
+}
+.notifications__page footer .footer__contacts span:nth-child(1) {
+  font-size: 14px;
+  color: #999999;
+}
+.notifications__page footer .footer__contacts span:nth-child(2) {
+  font-size: 18px;
+  color: #1A1A1A;
+}
+.notifications__page footer .footer__contacts span:nth-child(3) {
+  font-size: 13px;
+  color: #0090D9;
+  margin-bottom: 16px;
+}
+.notifications__page footer .footer__contacts span:nth-child(4) {
+  font-size: 13px;
+  color: #999999;
+  margin-bottom: 8px;
+}
+.notifications__page footer .footer__contacts button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #2CBE60;
+  height: 32px;
+  width: 135px;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.notifications__page footer .footer__links {
+  margin-right: 115px;
+}
+.notifications__page footer .footer__links div {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  cursor: default;
+}
+.notifications__page footer .footer__links span {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 4px 0;
+  cursor: pointer;
+}
+
+.notifications__page footer .footer__projects {
+  margin-right: 143px;
+}
+.notifications__page footer .footer__projects div:nth-child(1) {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  cursor: default;
+}
+.notifications__page footer .footer__projects .footer__projects__container {
+  display: flex;
+  align-items: flex-start;
+}
+.notifications__page footer .footer__projects .footer__projects__container div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+.notifications__page footer .footer__projects img {
+  margin-top: 4px;
+  margin-right: 12.78px;
+}
+.notifications__page footer .footer__projects span {
+  margin: 2px;
+}
+.notifications__page footer .footer__projects span:nth-of-type(1n) {
+  font-size: 13px;
+  font-weight: 400;
+}
+.notifications__page footer .footer__projects span:nth-of-type(2n) {
+  font-size: 11px;
+  font-weight: 500;
+  color: #999999;
+}
+
+.notifications__page footer .footer__social {
+  align-items: flex-end;
+  text-align: right;
+}
+.notifications__page footer .footer__social p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #999999;
+  width: 170px;
+  margin-bottom: 12px;
+}
+.notifications__page footer .footer__social img {
+  margin: 0 4px;
+}
+.notifications__page footer .footer__social div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+.notifications__page footer .footer__social div span {
+  font-weight: 14px;
+  font-size: 12px;
+  color: #999999;
+}/*# sourceMappingURL=footer.styles.css.map */
