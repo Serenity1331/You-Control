@@ -3,57 +3,57 @@ import './footer.styles.css'
 
 function Footer() {
     return (
-        <footer>
-            <div className="footer__container">
+        <footer className="footer">
+            <div className="footer-container">
 
                 <div className="footer__contacts">
-                    <span>Дзвінок безкоштовний</span>
-                    <span>0 800 309 077</span>
-                    <span>mail@youcontrol.com.ua</span>
-                    <span>Вирішили купувати?</span>
-                    <button className="footer__call">Замовити дзвінок</button>
+                    <span className="footer__contacts__text footer__contacts__span">Дзвінок безкоштовний</span>
+                    <span className="footer__contacts__phone footer__contacts__span">0 800 309 077</span>
+                    <span className="footer__contacts__email footer__contacts__span">mail@youcontrol.com.ua</span>
+                    <span className="footer__contacts__cta footer__contacts__span">Вирішили купувати?</span>
+                    <button className="footer__contacts__btn">Замовити дзвінок</button>
                 </div>
 
                 <div className="footer__links">
-                    <div>Для користувачів</div>
-                    <span>Можливості</span>
-                    <span>Кейси</span>
-                    <span>Тарифи</span>
+                    <div className="footer__links__title">Для користувачів</div>
+                    <span className="footer__links__elements">Можливості</span>
+                    <span className="footer__links__elements">Кейси</span>
+                    <span className="footer__links__elements">Тарифи</span>
                 </div>
 
                 <div className="footer__projects">
                     
-                    <div>Наші проекти</div>
+                    <div className="footer__projects__title">Наші проекти</div>
 
                     <div className="footer__projects__container">
-                        <img src="/icons/Y-shape.svg" alt="YouScore" />
-                        <div>
-                            <span>YouScore</span>
-                            <span>Доступ по API</span>
+                        <img className="footer__projects__container__img" src="/icons/Y-shape.svg" alt="YouScore" />
+                        <div className="footer__projects__container__box">
+                            <span className="footer__projects__container__box__title">YouScore</span>
+                            <span className="footer__projects__container__box__subtitle">Доступ по API</span>
                         </div>
                     </div>
 
                     <div className="footer__projects__container">
-                        <img src="/icons/i-extensions.svg" alt="Extension" />
-                        <div>
-                            <span>Додаток</span>
-                            <span>Chrome, Mozilla</span>
+                        <img className="footer__projects__container__img" src="/icons/i-extensions.svg" alt="Extension" />
+                        <div className="footer__projects__container__box">
+                            <span className="footer__projects__container__box__title">Додаток</span>
+                            <span className="footer__projects__container__box__subtitle">Chrome, Mozilla</span>
                         </div>
                     </div>
 
                 </div>
                 <div className="footer__social">
-                   <p>©YouControl – повне досьє на кожну компанію України</p>
-                   <div>
-                       <img src="/icons/i-facebook.svg" alt="Facebook" />
-                       <img src="/icons/i-youtube.svg" alt="YouTube" />
-                       <img src="/icons/linkedin.svg" alt="LinkedIn" />
-                       <img src="/icons/telegram.svg" alt="Telegram" />
+                   <p className="footer__social__motto">©YouControl – повне досьє на кожну компанію України</p>
+                   <div className="footer__social__container">
+                       <img className="footer__social__container__icon" src="/icons/i-facebook.svg" alt="Facebook" />
+                       <img className="footer__social__container__icon" src="/icons/i-youtube.svg" alt="YouTube" />
+                       <img className="footer__social__container__icon" src="/icons/linkedin.svg" alt="LinkedIn" />
+                       <img className="footer__social__container__icon" src="/icons/telegram.svg" alt="Telegram" />
                    </div>
-                   <div>
-                       <span>Сплачуйте онлайн:</span> 
-                       <img src="/icons/i-visa_icon.svg" alt="VISA" />
-                       <img src="/icons/i-mastercard_icon.svg" alt="Mastercard" />
+                   <div className="footer__social__container-2">
+                       <span className="footer__social__container-2__title">Сплачуйте онлайн:</span> 
+                       <img className="footer__social__container-2__icon" src="/icons/i-visa_icon.svg" alt="VISA" />
+                       <img className="footer__social__container-2__icon" src="/icons/i-mastercard_icon.svg" alt="Mastercard" />
                    </div>
                 </div>
 

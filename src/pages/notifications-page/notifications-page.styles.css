@@ -10,14 +10,14 @@
   background-clip: padding-box;
 }
 
-.notifications__page {
+.notifications-page {
   position: relative;
   width: 1200px;
   height: 100%;
   overflow-x: hidden;
 }
 
-.notifications__body {
+.main-body {
   width: 100%;
   height: 905px;
   background-size: contain;

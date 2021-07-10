@@ -1,9 +1,7 @@
-.notifications__page footer {
-
+.footer {
+    height: 100%;
     height: 192px;
-    width: 100%;
     background-color: white;
-
     box-shadow: 0px 1px 0px 0px #E5E5E5 inset;
 
     & .footer__contacts,
@@ -14,158 +12,158 @@
         flex-direction: column;
         margin-top: 24px;
     }
+}
 
-    & .footer__container {
+    .footer-container {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         height: 100%;
         margin-left: 264px;
     }
-}
 
-.notifications__page footer .footer__contacts {
-
-    margin-right: 81px;
-
-    & span {
-        font-weight: 500;
-        margin: 2px;
+    .footer__contacts {
+        margin-right: 81px;
+        width: 153px;
     }
 
-    & span:nth-child(1) {
-        font-size: 14px;
-        color: #999999;
+        .footer__contacts__span {
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+
+        .footer__contacts__text {
+            font-size: 14px;
+            color: #999999;
+            width: 153px;
+        }
+
+        .footer__contacts__phone {
+            font-size: 18px;
+            color: #1A1A1A;
+        }
+
+        .footer__contacts__email {
+            font-size: 13px;
+            color: #0090D9;
+            margin-bottom: 16px;
+        }
+
+        .footer__contacts__cta {
+            font-size: 13px;
+            color: #999999;
+            margin-bottom: 8px;
+        }
+
+        .footer__contacts__btn {
+            appearance: none;
+            background-color: #2CBE60;
+            height: 32px;
+            width: 135px;
+            font-family: Roboto;
+            font-size: 11px;
+            font-weight: 500;
+            border-radius: 2px;
+            border: none;
+            color: white;
+            text-transform: uppercase;
+        }
+
+    .footer__links {
+        margin-right: 115px;
     }
 
-    & span:nth-child(2) {
-        font-size: 18px;
-        color: #1A1A1A;
-    }
+        .footer__links__title {
+            width: 118px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            cursor: default;
+        }
 
-    & span:nth-child(3) {
-        font-size: 13px;
-        color: #0090D9;
-        margin-bottom: 16px;
-    }
+        .footer__links__elements {
+            font-size: 13px;
+            font-weight: 400;
+            margin: 4px 0;
+            cursor: pointer;
+        }
 
-    & span:nth-child(4) {
-        font-size: 13px;
-        color: #999999;
-        margin-bottom: 8px;
-    }
 
-    & button {
-        appearance: none;
- 
-        background-color: #2CBE60;
+    .footer__projects {
+        margin-right: 143px;
+    }  
         
-        height: 32px;
-        width: 135px;
-        font-family: Roboto;
-        font-size: 11px;
-        font-weight: 500;
-        border-radius: 2px;
-        border: none;
-        color: white;
-        text-transform: uppercase;
+        .footer__projects__title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
 
-    }
-}
+        .footer__projects__container {
+            display: flex;
+            align-items: flex-start;
+        }
 
-.notifications__page footer .footer__links {
+            .footer__projects__container__img {
+                margin-top: 4px;
+                margin-right: 12.78px;
+            }
 
-    margin-right: 115px;
-
-    & div {
-        font-size: 14px;
-        font-weight: 500;
-        margin-bottom: 8px;
-        cursor: default;
-    }
-
-    & span {
-        font-size: 13px;
-        font-weight: 400;
-        margin: 4px 0;
-        cursor: pointer;
-    }
-}
-
-.notifications__page footer .footer__projects {
-
-    margin-right: 143px;
-
-    & div:nth-child(1) {
-        font-size: 14px;
-        font-weight: 500;
-        margin-bottom: 8px;
-        cursor: default;
-    }
+            .footer__projects__container__box {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin-bottom: 12px;
+            }
     
-    & .footer__projects__container {
-        display: flex;
-        align-items: flex-start;
+                .footer__projects__container__box__title {
+                    margin: 2px;
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+
+                .footer__projects__container__box__subtitle {
+                    margin: 2px;
+                    font-size: 11px;
+                    font-weight: 500;
+                    color: #999999;
+                }
+
+    .footer__social {
+        align-items: flex-end;
+        text-align: right;
     }
 
-    & .footer__projects__container div {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-bottom: 12px;
-    }
+        .footer__social__motto {
+            font-size: 12px;
+            font-weight: 400;
+            color: #999999;
+            width: 170px;
+            margin-bottom: 12px;
+        }
 
-    & img {
-        margin-top: 4px;
-        margin-right: 12.78px;
-    }
+        // .footer__social__container {}
 
-    & span {
-        margin: 2px;
-    }
-    
-    & span:nth-of-type(1n) {
-        font-size: 13px;
-        font-weight: 400;
-    }
+                .footer__social__container__icon {
+                    margin: 0 4px;
+                }
 
-    & span:nth-of-type(2n) {
-        font-size: 11px;
-        font-weight: 500;
-        color: #999999;
-    }
-}
+            .footer__social__container-2 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 44px;
+            }
 
-.notifications__page footer .footer__social {
+                .footer__social__container-2__title {
+                    font-weight: 14px;
+                    font-size: 12px;
+                    color: #999999;
+                }
 
-    align-items: flex-end;
-    text-align: right;
-
-    & p {
-        font-size: 12px;
-        font-weight: 400;
-        color: #999999;
-        width: 170px;
-        margin-bottom: 12px;
-    }
-
-    & img {
-        margin: 0 4px;
-    }
-
-    & div:nth-child(3) {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 44px;
-    }
-
-    & div span {
-        font-weight: 14px;
-        font-size: 12px;
-        color: #999999;
-    }
-}
+                .footer__social__container-2__icon {
+                    margin: 0 4px;
+                }
 
 
 

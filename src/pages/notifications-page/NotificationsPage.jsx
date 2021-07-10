@@ -7,10 +7,10 @@ import Footer from '../../components/footer/Footer'
 
 function NotificationsPage() {
     return (
-        <div className="notifications__page">
+        <div className="notifications-page">
             <Header />
             <DashBoard />
-            <div className="notifications__body" style={{ backgroundImage: "url(/images/bodyImage.png)" }}></div>
+            <div className="main-body" style={{ backgroundImage: "url(/images/bodyImage.png)" }}></div>
             <Footer />
         </div>
     )

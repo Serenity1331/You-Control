@@ -3,7 +3,7 @@ import './dashboard.styles.css'
 
 function DashBoard() {
     return (
-        <div className="notifications__dashboard">
+        <div className="dashboard">
             
         </div>
     )

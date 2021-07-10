@@ -1,4 +1,4 @@
-.notifications__page .notifications__menu {
+.notifications-menu {
   position: absolute;
   top: 0;
   right: 0;
@@ -10,33 +10,37 @@
   opacity: 0;
   z-index: 1;
 }
-.notifications__page .notifications__menu ul {
+.notifications-menu.active--speaker {
+  transform: translate(0, 70px);
+  opacity: 1;
+}
+
+.notifications-menu__list {
   height: 900px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
-.notifications__page .notifications__menu .notifications__menu__header {
+
+.notifications-menu__list__header {
   border-bottom: 1px solid #E5E5E5;
   height: 68px;
 }
-.notifications__page .notifications__menu .notifications__menu__header div {
+
+.notifications-menu__list__header__title {
   font-size: 14px;
   font-weight: 400;
   color: #717171;
   transform: translate(16px, 34px);
 }
-.notifications__page .notifications__menu.active-speaker {
-  transform: translate(0, 70px);
-  opacity: 1;
-}
 
-.notifications__page .notifications__menu .notifications__btn__container {
+.notifications-menu__btn-container {
   background-color: white;
   border-radius: 3px solid red;
   width: 420px;
   height: 80px;
 }
-.notifications__page .notifications__menu .notifications__btn__container button {
+
+.notifications-menu__btn-container__btn {
   height: 40px;
   width: 372px;
   margin-left: 24px;
@@ -49,59 +53,7 @@
   color: white;
   outline: none;
 }
-.notifications__page .notifications__menu .notifications__btn__container button:hover {
+.notifications-menu__btn-container__btn:hover {
   cursor: pointer;
   background-color: green;
-}
-
-.notifications__page .notifications__menu .notification {
-  position: relative;
-  border-bottom: 1px solid #E5E5E5;
-  background-color: #F8F8F8;
-  padding-top: 18px;
-  cursor: pointer;
-}
-.notifications__page .notifications__menu .notification:hover {
-  background-color: #F3FBFF !important;
-}
-.notifications__page .notifications__menu .notification.bg-white {
-  background-color: white;
-}
-.notifications__page .notifications__menu .notification .notification__tag {
-  border-radius: 12px;
-  color: #FFFFFF;
-  font-size: 10px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin-left: 16px;
-  text-transform: uppercase;
-  padding: 5px;
-}
-.notifications__page .notifications__menu .notification .notification__date {
-  position: absolute;
-  top: 21px;
-  right: 16px;
-  font-weight: 400;
-  font-size: 13px;
-  color: #BEBEBE;
-}
-.notifications__page .notifications__menu .notification .notification__title {
-  margin-top: 12px;
-  margin-left: 16px;
-  opacity: 0.75;
-  color: #1A1A1A;
-  font-size: 16px;
-}
-.notifications__page .notifications__menu .notification .notification__title.font-bold {
-  font-weight: 500;
-  opacity: 1;
-}
-.notifications__page .notifications__menu .notification .notification__content {
-  color: #999999;
-  font-size: 14px;
-  font-weight: 400;
-  margin-top: 12px;
-  margin-left: 18px;
-  margin-bottom: 18px;
 }/*# sourceMappingURL=notifications-menu.styles.css.map */

@@ -1,4 +1,4 @@
-.notifications__header {
+.header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -7,11 +7,11 @@
   background-color: white;
 }
 
-.notifications__header .icon__container {
+.header__icon-container {
   display: flex;
 }
 
-.notifications__header .icon__container div {
+.header__icon-container__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,13 +22,13 @@
   margin: 8px;
   cursor: pointer;
 }
-.notifications__header .icon__container div:hover {
+.header__icon-container__box:hover {
   background-color: #2CBE60;
 }
-.notifications__header .icon__container div.active-green {
+.header__icon-container__box.active--green {
   background-color: #2CBE60;
 }
-.notifications__header .icon__container div:nth-child(3) {
+.header__icon-container__box:nth-child(3) {
   align-items: center;
   background-color: white;
   margin-left: 0px;
