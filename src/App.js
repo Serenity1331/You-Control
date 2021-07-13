@@ -6,12 +6,12 @@ import NotificationsRecordPage from './pages/notifications-record-page/Notificat
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Router>
         <Route exact path="/" component={NotificationsPage} />
         <Route exact path="/records" component={NotificationsRecordPage} />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
