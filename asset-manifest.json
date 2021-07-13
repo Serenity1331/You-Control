@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/You-Control/static/css/main.9e90b16d.chunk.css",
-    "main.js": "/You-Control/static/js/main.66ac796f.chunk.js",
-    "main.js.map": "/You-Control/static/js/main.66ac796f.chunk.js.map",
+    "main.js": "/You-Control/static/js/main.cff83173.chunk.js",
+    "main.js.map": "/You-Control/static/js/main.cff83173.chunk.js.map",
     "runtime-main.js": "/You-Control/static/js/runtime-main.b7be04bf.js",
     "runtime-main.js.map": "/You-Control/static/js/runtime-main.b7be04bf.js.map",
     "static/js/2.9d4dcab4.chunk.js": "/You-Control/static/js/2.9d4dcab4.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b7be04bf.js",
     "static/js/2.9d4dcab4.chunk.js",
     "static/css/main.9e90b16d.chunk.css",
-    "static/js/main.66ac796f.chunk.js"
+    "static/js/main.cff83173.chunk.js"
   ]
 }
