@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import './header.styles.css'
 import NotificationsMenu from '../notifications-menu/NotificationsMenu'
-// import Popup from '../popup/Popup';
 
 function Header() {
 
@@ -24,7 +23,6 @@ function Header() {
             </div>
 
             <NotificationsMenu active={speakerActive} />
-            {/* <Popup /> */}
         </header>
     )
 }

@@ -1,8 +1,10 @@
 .dashboard {
-  width: 242px;
-  height: 94%;
-  box-shadow: 0px 2px 4px 0px #0000001E;
   position: absolute;
+  width: 242px;
+  height: calc(100% - 69px);
+  box-shadow: 0px 2px 4px 0px #0000001E;
   background-color: white;
+  background-size: 100%;
+  background-repeat: no-repeat;
   z-index: 1;
 }/*# sourceMappingURL=dashboard.styles.css.map */

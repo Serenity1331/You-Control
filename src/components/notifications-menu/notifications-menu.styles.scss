@@ -36,6 +36,29 @@
                 transform: translate(16px, 34px);
             }
 
+        .notifications-menu__list__container {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 241px;
+            top: 363px;
+            left: 90px;
+
+            & img {
+                margin-bottom: 37px;
+            }
+        }
+
+            .notifications-menu__list__container__message {
+
+                font-size: 18px;
+                line-height: 26px;
+                color: #1F1F1F;
+                text-align: center;
+            }
+
     .notifications-menu__btn-container {
 
         background-color: white;

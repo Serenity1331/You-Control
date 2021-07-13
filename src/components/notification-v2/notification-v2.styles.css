@@ -1,67 +1,69 @@
-.notification {
+.notification-v2 {
   position: relative;
   border-bottom: 1px solid #E5E5E5;
   background-color: #F8F8F8;
   padding-top: 18px;
   cursor: pointer;
 }
-.notification:hover {
+.notification-v2:hover {
   background-color: #F3FBFF !important;
 }
-.notification.bg--white {
+.notification-v2.bg--white {
   background-color: white;
 }
 
-.notification__tag {
+.notification-v2__container {
+  margin-left: 30px;
+  margin-bottom: 16px;
+}
+
+.notification-v2__tag {
   border-radius: 12px;
   color: #FFFFFF;
   font-size: 10px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin-left: 16px;
   text-transform: uppercase;
   padding: 5px;
 }
-.notification__tag.bg--green {
+.notification-v2__tag.bg--green {
   background-color: #30BF60;
 }
-.notification__tag.bg--red {
+.notification-v2__tag.bg--red {
   background-color: #D0021B;
 }
-.notification__tag.bg--orange {
+.notification-v2__tag.bg--orange {
   background-color: #F79E1B;
 }
-.notification__tag.bg--navy {
+.notification-v2__tag.bg--navy {
   background-color: #4CB8BF;
 }
 
-.notification__date {
+.notification-v2__date {
   position: absolute;
   top: 21px;
-  right: 16px;
+  right: 32px;
   font-weight: 400;
   font-size: 13px;
   color: #BEBEBE;
 }
 
-.notification__title {
+.notification-v2__title {
   margin-top: 12px;
-  margin-left: 16px;
   opacity: 0.75;
   color: #1A1A1A;
   font-size: 16px;
 }
-.notification__title.font--bold {
+.notification-v2__title.font--bold {
   font-weight: 500;
   opacity: 1;
 }
 
-.notification__content {
+.notification-v2__content {
   color: #999999;
   font-size: 14px;
   font-weight: 400;
   margin-top: 12px;
-  margin-left: 18px;
-  margin-bottom: 18px;
-}/*# sourceMappingURL=notification.styles.css.map */
+  width: 813.24px;
+}/*# sourceMappingURL=notification-v2.styles.css.map */

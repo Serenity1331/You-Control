@@ -1,0 +1,83 @@
+
+.notification-v2 {
+    position: relative;
+    border-bottom: 1px solid #E5E5E5;
+    background-color: #F8F8F8;
+    padding-top: 18px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #F3FBFF !important;
+    }
+
+    &.bg--white {
+        background-color: white;
+    }
+}
+
+    .notification-v2__container {
+        margin-left: 30px;
+        margin-bottom: 16px;
+    }
+
+        .notification-v2__tag {
+            border-radius: 12px;
+            color: #FFFFFF;
+            font-size: 10px;
+            width: fit-content;
+            text-transform: uppercase;
+            padding: 5px;
+
+            
+            &.bg--green {
+                background-color:#30BF60;
+            }
+
+            &.bg--red {
+                background-color: #D0021B;
+            }
+
+            &.bg--orange {
+                background-color: #F79E1B;
+            }
+            
+            &.bg--navy {
+                background-color: #4CB8BF;
+            }
+        }
+
+        .notification-v2__date {
+            position: absolute;
+            top: 21px;
+            right: 32px;
+            font-weight: 400;
+            font-size: 13px;
+            color: #BEBEBE;
+        }
+
+        .notification-v2__title {
+            margin-top: 12px;
+            opacity: 0.75;
+            color: #1A1A1A;
+            font-size: 16px;
+
+            &.font--bold {
+                font-weight: 500;
+                opacity: 1;
+            }
+        }
+
+        .notification-v2__content {
+            color: #999999;
+            font-size: 14px;
+            font-weight: 400;
+            margin-top: 12px;
+            width: 813.24px;
+        }
+
+
+
+
+
+
+

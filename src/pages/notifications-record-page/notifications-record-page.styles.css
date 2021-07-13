@@ -1,2 +1,6 @@
-
-/*# sourceMappingURL=notifications-record-page.styles.css.map *//*# sourceMappingURL=notifications-record-page.styles.css.map */
+.notifications-record-page {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  overflow-x: hidden;
+}/*# sourceMappingURL=notifications-record-page.styles.css.map */
