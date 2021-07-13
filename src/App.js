@@ -7,8 +7,8 @@ import NotificationsRecordPage from './pages/notifications-record-page/Notificat
 function App() {
   return (
     <div className="App">
-      <Route exact path="/" component={NotificationsPage} />
-      <Route exact path="/records" component={NotificationsRecordPage} />
+      <Route exact path="/You-Control/" component={NotificationsPage} />
+      <Route exact path="/You-Control/records" component={NotificationsRecordPage} />
     </div>
   );
 }
