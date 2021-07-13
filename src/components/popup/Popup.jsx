@@ -17,16 +17,16 @@ function Popup( {active, deactivatePopup} ) {
                     <div className="popup__container__list">
                         <li className="popup__container__list__element">
                             <span>Нові кольори;</span>
-                            <img className="popup__container__list__element__img" src="/icons/check-mark.svg" alt="" />
+                            <img className="popup__container__list__element__img" src="/You-Control/icons/check-mark.svg" alt="" />
                         </li>
                         <li className="popup__container__list__element">
                             <span>Додавайте більше списків.</span>
-                            <img className="popup__container__list__element__img" src="/icons/check-mark.svg" alt="" />
+                            <img className="popup__container__list__element__img" src="/You-Control/icons/check-mark.svg" alt="" />
                         </li>
                     </div>
                     <div className="popup__container__inner-window">
-                        <img src="/images/suppliers.png" alt="Постачальники" />
-                        <img src="/images/color-palette.png" alt="Кольори" />
+                        <img src="/You-Control/images/suppliers.png" alt="Постачальники" />
+                        <img src="/You-Control/images/color-palette.png" alt="Кольори" />
 
                     </div>
                     <div className="popup__container__whats-new">

@@ -3,7 +3,7 @@ import './dashboard.styles.css'
 
 function DashBoard() {
     return (
-        <div className="dashboard" style={{backgroundImage: "url(/images/dashboard.png)"}}>
+        <div className="dashboard" style={{backgroundImage: "url(/You-Control/images/dashboard.png)"}}>
             
         </div>
     )

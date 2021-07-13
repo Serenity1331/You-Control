@@ -130,7 +130,7 @@ function NotificationsPage() {
             <div className="notifications-page">
                 <Header />
                 <DashBoard />
-                <div className="main-body" style={{ backgroundImage: "url(/images/bodyImage.png)" }}></div>
+                <div className="main-body" style={{ backgroundImage: "url(/You-Control/images/bodyImage.png)" }}></div>
                 <Footer />
             </div>
         </NotificationContext.Provider>

@@ -38,7 +38,7 @@ function NotificationsMenu( {active} ) {
                         ))}
                     </ul>
                     <div className="notifications-menu__btn-container" key={'footer-1'}>
-                        <Link to="/records">
+                        <Link to="/You-Control/records">
                             <button className="notifications-menu__btn-container__btn">Переглянути всі</button>
                         </Link>
                     </div>
@@ -55,7 +55,7 @@ function NotificationsMenu( {active} ) {
             <ul className="notifications-menu__list">
 
                 <div className="notifications-menu__list__container">
-                    <img src="/icons/empty-loudspeaker.svg" alt="" />
+                    <img src="/You-Control/icons/empty-loudspeaker.svg" alt="" />
                     <p className="notifications-menu__list__container__message">Тут будуть показані всі нові сповіщення</p>
                 </div>
             </ul>

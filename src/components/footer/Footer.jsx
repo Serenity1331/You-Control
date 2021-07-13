@@ -26,7 +26,7 @@ function Footer() {
                     <div className="footer__projects__title">Наші проекти</div>
 
                     <div className="footer__projects__container">
-                        <img className="footer__projects__container__img" src="/icons/Y-shape.svg" alt="YouScore" />
+                        <img className="footer__projects__container__img" src="/You-Control/icons/Y-shape.svg" alt="YouScore" />
                         <div className="footer__projects__container__box">
                             <span className="footer__projects__container__box__title">YouScore</span>
                             <span className="footer__projects__container__box__subtitle">Доступ по API</span>
@@ -34,7 +34,7 @@ function Footer() {
                     </div>
 
                     <div className="footer__projects__container">
-                        <img className="footer__projects__container__img" src="/icons/i-extensions.svg" alt="Extension" />
+                        <img className="footer__projects__container__img" src="/You-Control/icons/i-extensions.svg" alt="Extension" />
                         <div className="footer__projects__container__box">
                             <span className="footer__projects__container__box__title">Додаток</span>
                             <span className="footer__projects__container__box__subtitle">Chrome, Mozilla</span>
@@ -45,15 +45,15 @@ function Footer() {
                 <div className="footer__social">
                    <p className="footer__social__motto">©YouControl – повне досьє на кожну компанію України</p>
                    <div className="footer__social__container">
-                       <img className="footer__social__container__icon" src="/icons/i-facebook.svg" alt="Facebook" />
-                       <img className="footer__social__container__icon" src="/icons/i-youtube.svg" alt="YouTube" />
-                       <img className="footer__social__container__icon" src="/icons/linkedin.svg" alt="LinkedIn" />
-                       <img className="footer__social__container__icon" src="/icons/telegram.svg" alt="Telegram" />
+                       <img className="footer__social__container__icon" src="/You-Control/icons/i-facebook.svg" alt="Facebook" />
+                       <img className="footer__social__container__icon" src="/You-Control/icons/i-youtube.svg" alt="YouTube" />
+                       <img className="footer__social__container__icon" src="/You-Control/icons/linkedin.svg" alt="LinkedIn" />
+                       <img className="footer__social__container__icon" src="/You-Control/icons/telegram.svg" alt="Telegram" />
                    </div>
                    <div className="footer__social__container-2">
                        <span className="footer__social__container-2__title">Сплачуйте онлайн:</span> 
-                       <img className="footer__social__container-2__icon" src="/icons/i-visa_icon.svg" alt="VISA" />
-                       <img className="footer__social__container-2__icon" src="/icons/i-mastercard_icon.svg" alt="Mastercard" />
+                       <img className="footer__social__container-2__icon" src="/You-Control/icons/i-visa_icon.svg" alt="VISA" />
+                       <img className="footer__social__container-2__icon" src="/You-Control/icons/i-mastercard_icon.svg" alt="Mastercard" />
                    </div>
                 </div>
 
